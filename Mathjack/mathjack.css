@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./lateralpage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+#Logo{
+    width: 250px;
+}
+
+#Blackjack {
+    background-image: url(/Mathjack/background.webp);
+    width:80%;
+    padding-block: 22.56%;
+    background-repeat: no-repeat;
+    background-size:contain;
+ 
+}
+
+#Blackjack .Carta img{
+    width: 100%;
+    height: 100%;
+}
+
+#Blackjack div {
+    position: absolute;
+    width: 6%;
+    height: 18%;
+}
+
+#Blackjack #Mao1{
+    transform: rotate(0deg) translateX(371px) translateY(165px);
+}
+#Blackjack #Mao2{
+    transform: rotate(0deg) translateX(421px) translateY(190px);
+}
+
+#Blackjack #Mao3{
+    transform: rotate(0deg) translateX(471px) translateY(165px);
+}
+
+#Blackjack #Mao4{
+    transform: rotate(0deg) translateX(321px) translateY(190px);
+}
+
+#Blackjack #Mao5{
+    transform: rotate(0deg) translateX(521px) translateY(190px);
+}
+
+#Blackjack #Mao6{
+    transform: rotate(0deg) translateX(271px) translateY(205px);
+}
+
+#Blackjack #Mao7{
+    transform: rotate(0deg) translateX(571px) translateY(205px);
+}
+
+
+
+#Blackjack #cMesa1{
+    transform: rotate(0deg) translateX(370px) translateY(-70px);
+    z-index: 3;
+}
+#Blackjack #cMesa2{
+    transform: rotate(0deg) translateX(421px) translateY(-70px);
+    z-index: 4;
+}
+#Blackjack #cMesa3{
+    transform: rotate(0deg) translateX(319px) translateY(-70px);
+    z-index: 2;
+}
+#Blackjack #cMesa4{
+    transform: rotate(0deg) translateX(268px) translateY(-70px);
+    z-index: 1;
+}
+#Blackjack #cMesa5{
+    transform: rotate(0deg) translateX(472px) translateY(-70px);
+}
+#Blackjack #cMesa6{
+    transform: rotate(0deg) translateX(523px) translateY(-70px);
+}
+#Blackjack #cMesa7{
+    transform: rotate(0deg) translateX(574px) translateY(-70px);
+}
+
+#chat{
+    width: 20%;
+    height: 200px;
+}
+
+#Comandos{
+position: absolute;
+display: flex;
+flex-direction: column;
+text-align: center;
+color: white;
+right: 15px;
+}
+
+#scores{
+    position:absolute;
+    top: 15px;
+    left: 300px;
+    color: rgb(255, 255, 255);
+}
