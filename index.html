@@ -9,7 +9,7 @@
 <body>
     <section>
     <div id="chat">
-        <img id="Logo" src="./logosite.png" alt="">
+        <img id="Logo" src="https://raw.githubusercontent.com/Caetanw/MathJack.io/main/Mathjack/logosite.png" alt="">
     </div>
     <div id="Blackjack">
         <div id="Mao1" class="Carta"></div>
@@ -42,32 +42,32 @@
     let playerHand = [];
     let dealerHand = [];
     const deck = [   
-  { suit: "Paus", value: 1 , name: "As", imageUrl:"./Trabalho Matematica/Paus/1A-removebg-preview.png"},
-  { suit: "Paus", value: 2 , name: "Dois", imageUrl:"./Trabalho Matematica/Paus/2-removebg-preview.png"},
-  { suit: "Paus", value: 3 , name: "Tres", imageUrl:"./Trabalho Matematica/Paus/3-removebg-preview.png"},
-  { suit: "Paus", value: 4 , name: "Quatro", imageUrl:"./Trabalho Matematica/Paus/4-removebg-preview.png"},
-  { suit: "Paus", value: 5 , name: "Cinco", imageUrl:"./Trabalho Matematica/Paus/5-removebg-preview.png"},
-  { suit: "Paus", value: 6 , name: "Seis", imageUrl:"./Trabalho Matematica/Paus/6-removebg-preview.png"},
-  { suit: "Paus", value: 7 , name: "Sete", imageUrl:"./Trabalho Matematica/Paus/7-removebg-preview.png"},
-  { suit: "Paus", value: 8 , name: "Oito", imageUrl:"./Trabalho Matematica/Paus/8-removebg-preview.png"},
-  { suit: "Paus", value: 9 , name: "Nove", imageUrl:"./Trabalho Matematica/Paus/9-removebg-preview.png"},
-  { suit: "Paus", value: 10 , name: "Dez", imageUrl:"./Trabalho Matematica/Paus/10-removebg-preview.png"},
-  { suit: "Paus", value: 10 , name: "Valete", imageUrl:"./Trabalho Matematica/Paus/J-removebg-preview.png"},
-  { suit: "Paus", value: 10 , name: "Dama", imageUrl:"./Trabalho Matematica/Paus/Q-removebg-preview.png"},
-  { suit: "Paus", value: 10 , name: "Reis", imageUrl:"./Trabalho Matematica/Paus/K-removebg-preview.png"},
-  { suit: "Ouro", value: 1 , name: "As", imageUrl:"./Trabalho Matematica/Ouro/1A-removebg-preview.png"},
-  { suit: "Ouro", value: 2 , name: "Dois", imageUrl:"./Trabalho Matematica/Ouro/2-removebg-preview.png"},
-  { suit: "Ouro", value: 3 , name: "Tres", imageUrl:"./Trabalho Matematica/Ouro/3-removebg-preview.png"},
-  { suit: "Ouro", value: 4 , name: "Quatro", imageUrl:"./Trabalho Matematica/Ouro/4-removebg-preview.png"},
-  { suit: "Ouro", value: 5 , name: "Cinco", imageUrl:"./Trabalho Matematica/Ouro/5-removebg-preview.png"},
-  { suit: "Ouro", value: 6 , name: "Seis", imageUrl:"./Trabalho Matematica/Ouro/6-removebg-preview.png"},
-  { suit: "Ouro", value: 7 , name: "Sete", imageUrl:"./Trabalho Matematica/Ouro/7-removebg-preview.png"},
-  { suit: "Ouro", value: 8 , name: "Oito", imageUrl:"./Trabalho Matematica/Ouro/8-removebg-preview.png"},
-  { suit: "Ouro", value: 9 , name: "Nove", imageUrl:"./Trabalho Matematica/Ouro/9-removebg-preview.png"},
-  { suit: "Ouro", value: 10 , name: "Dez", imageUrl:"./Trabalho Matematica/Ouro/10-removebg-preview.png"},
-  { suit: "Ouro", value: 10 , name: "Valete", imageUrl:"./Trabalho Matematica/Ouro/J-removebg-preview.png"},
-  { suit: "Ouro", value: 10 , name: "Dama", imageUrl:"./Trabalho Matematica/Ouro/Q-removebg-preview.png"},
-  { suit: "Ouro", value: 10 , name: "Reis", imageUrl:"./Trabalho Matematica/Ouro/K-removebg-preview.png"},
+  { suit: "Paus", value: 1 , name: "As", imageUrl:"https://raw.githubusercontent.com/Caetanw/MathJack.io/main/Mathjack/Trabalho%20Matematica/Paus/1A-removebg-preview.png"},
+  { suit: "Paus", value: 2 , name: "Dois", imageUrl:"https://raw.githubusercontent.com/Caetanw/MathJack.io/main/Mathjack/Trabalho%20Matematica/Paus/2-removebg-preview.png"},
+  { suit: "Paus", value: 3 , name: "Tres", imageUrl:"https://raw.githubusercontent.com/Caetanw/MathJack.io/main/Mathjack/Trabalho%20Matematica/Paus/3-removebg-preview.png"},
+  { suit: "Paus", value: 4 , name: "Quatro", imageUrl:"https://raw.githubusercontent.com/Caetanw/MathJack.io/main/Mathjack/Trabalho%20Matematica/Paus/4-removebg-preview.png"},
+  { suit: "Paus", value: 5 , name: "Cinco", imageUrl:"https://raw.githubusercontent.com/Caetanw/MathJack.io/main/Mathjack/Trabalho%20Matematica/Paus/5-removebg-preview.png"},
+  { suit: "Paus", value: 6 , name: "Seis", imageUrl:"https://raw.githubusercontent.com/Caetanw/MathJack.io/main/Mathjack/Trabalho%20Matematica/Paus/6-removebg-preview.png"},
+  { suit: "Paus", value: 7 , name: "Sete", imageUrl:"https://raw.githubusercontent.com/Caetanw/MathJack.io/main/Mathjack/Trabalho%20Matematica/Paus/7-removebg-preview.png"},
+  { suit: "Paus", value: 8 , name: "Oito", imageUrl:"https://raw.githubusercontent.com/Caetanw/MathJack.io/main/Mathjack/Trabalho%20Matematica/Paus/8-removebg-preview.png"},
+  { suit: "Paus", value: 9 , name: "Nove", imageUrl:"https://raw.githubusercontent.com/Caetanw/MathJack.io/main/Mathjack/Trabalho%20Matematica/Paus/9-removebg-preview.png"},
+  { suit: "Paus", value: 10 , name: "Dez", imageUrl:"https://raw.githubusercontent.com/Caetanw/MathJack.io/main/Mathjack/Trabalho%20Matematica/Paus/10-removebg-preview.png"},
+  { suit: "Paus", value: 10 , name: "Valete", imageUrl:"https://raw.githubusercontent.com/Caetanw/MathJack.io/main/Mathjack/Trabalho%20Matematica/Paus/J-removebg-preview.png"},
+  { suit: "Paus", value: 10 , name: "Dama", imageUrl:"https://raw.githubusercontent.com/Caetanw/MathJack.io/main/Mathjack/Trabalho%20Matematica/Paus/Q-removebg-preview.png"},
+  { suit: "Paus", value: 10 , name: "Reis", imageUrl:"https://raw.githubusercontent.com/Caetanw/MathJack.io/main/Mathjack/Trabalho%20Matematica/Paus/K-removebg-preview.png"},
+  { suit: "Ouro", value: 1 , name: "As", imageUrl:"https://raw.githubusercontent.com/Caetanw/MathJack.io/main/Mathjack/Trabalho%20Matematica/Ouro/1A-removebg-preview.png"},
+  { suit: "Ouro", value: 2 , name: "Dois", imageUrl:"https://raw.githubusercontent.com/Caetanw/MathJack.io/main/Mathjack/Trabalho%20Matematica/Ouro/2-removebg-preview.png"},
+  { suit: "Ouro", value: 3 , name: "Tres", imageUrl:"https://raw.githubusercontent.com/Caetanw/MathJack.io/main/Mathjack/Trabalho%20Matematica/Ouro/3-removebg-preview.png"},
+  { suit: "Ouro", value: 4 , name: "Quatro", imageUrl:"https://raw.githubusercontent.com/Caetanw/MathJack.io/main/Mathjack/Trabalho%20Matematica/Ouro/4-removebg-preview.png"},
+  { suit: "Ouro", value: 5 , name: "Cinco", imageUrl:"https://raw.githubusercontent.com/Caetanw/MathJack.io/main/Mathjack/Trabalho%20Matematica/Ouro/5-removebg-preview.png"},
+  { suit: "Ouro", value: 6 , name: "Seis", imageUrl:"https://raw.githubusercontent.com/Caetanw/MathJack.io/main/Mathjack/Trabalho%20Matematica/Ouro/6-removebg-preview.png"},
+  { suit: "Ouro", value: 7 , name: "Sete", imageUrl:"https://raw.githubusercontent.com/Caetanw/MathJack.io/main/Mathjack/Trabalho%20Matematica/Ouro/7-removebg-preview.png"},
+  { suit: "Ouro", value: 8 , name: "Oito", imageUrl:"https://raw.githubusercontent.com/Caetanw/MathJack.io/main/Mathjack/Trabalho%20Matematica/Ouro/8-removebg-preview.png"},
+  { suit: "Ouro", value: 9 , name: "Nove", imageUrl:"https://raw.githubusercontent.com/Caetanw/MathJack.io/main/Mathjack/Trabalho%20Matematica/Ouro/9-removebg-preview.png"},
+  { suit: "Ouro", value: 10 , name: "Dez", imageUrl:"https://raw.githubusercontent.com/Caetanw/MathJack.io/main/Mathjack/Trabalho%20Matematica/Ouro/10-removebg-preview.png"},
+  { suit: "Ouro", value: 10 , name: "Valete", imageUrl:"https://raw.githubusercontent.com/Caetanw/MathJack.io/main/Mathjack/Trabalho%20Matematica/Ouro/J-removebg-preview.png"},
+  { suit: "Ouro", value: 10 , name: "Dama", imageUrl:"https://raw.githubusercontent.com/Caetanw/MathJack.io/main/Mathjack/Trabalho%20Matematica/Ouro/K-removebg-preview.png"},
+  { suit: "Ouro", value: 10 , name: "Reis", imageUrl:"https://raw.githubusercontent.com/Caetanw/MathJack.io/main/Mathjack/Trabalho%20Matematica/Ouro/Q-removebg-preview.png"},
     ];
 
     function shuffleDeck() {
@@ -91,7 +91,7 @@
   J++
       }
 
-      document.getElementById("cMesa"+1).innerHTML = `<img src="${"./Trabalho Matematica/CardBack.png"}" alt="">`;
+      document.getElementById("cMesa"+1).innerHTML = `<img src="${"https://raw.githubusercontent.com/Caetanw/MathJack.io/main/Mathjack/Trabalho%20Matematica/CardBack.png"}" alt="">`;
   
 }
 
@@ -226,7 +226,7 @@ function dealerPlay() {
 body{
     width: 100vw;
     height: 100vh;
-    background-image: url(./lateralpage.png);
+    background-image: url(https://raw.githubusercontent.com/Caetanw/MathJack.io/main/Mathjack/lateralpage.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -241,7 +241,7 @@ section{
 }
 
 #Blackjack {
-    background-image: url(/Mathjack/background.webp);
+    background-image: url(https://raw.githubusercontent.com/Caetanw/MathJack.io/main/Mathjack/background.webp);
     width:80%;
     padding-block: 22.56%;
     background-repeat: no-repeat;
