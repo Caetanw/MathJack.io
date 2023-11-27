@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section id="TelaPrincipal">
+        <div id="Linha1">
+            <header class="Colunas">
+                <div class="Coluna1">
+                    <div id="Fechar"class="Circulo"></div>
+                    <div id="Titulo"></div>
+                </div>
+                <div class="Coluna2 TopRight">
+                    <div id="Chat" class="Circulo"></div>
+                    <div id="Camera" class="Circulo"></div>
+                    <div id="Som" class="Circulo"></div>
+                    <div id="Config" class="Circulo"></div>
+                    <div id="Historico" class="Circulo"></div>
+                    <div id="Ajuda" class="Circulo"></div>
+                    <div id="FullScreen" class="Circulo"></div>
+                </div>
+            </header>
+            <section class="Colunas">
+                <div id="ChatToChat"></div>
+                <div id="Time"></div>
+            </section>
+        </div>
+        <div id="Centro">
+            <div id="Jogo"></div>
+            <div id="CartasMesa">
+                <div id="CartaMesa1" class="Carta"></div>
+                <div id="CartaMesa2" class="Carta"></div>
+                <div id="CartaMesa3" class="Carta"></div>
+                <div id="CartaMesa4" class="Carta"></div>
+            </div>
+        </div>
+        <div id="Linha2">
+            <footer class="Colunas">
+                <div class="Coluna1">
+                    <div id="Saldo"></div>
+                    <div id="Apostado"></div>
+                </div>
+                <div class="Coluna2">
+                    <div id="Olho" class="Circulo"></div>
+                    <div id="Mesa"></div>
+                    <div id="Lobby"></div>
+                </div>
+            </footer>
+        </div>
+    </section>
+</body>
+
+<style>
+
+    #TelaPrincipal{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .Colunas{
+        display: flex;
+        justify-content: space-between;
+    }
+    .Coluna1, .Coluna2{
+        display: flex;
+    }
+
+    .Circulo{
+        border-radius: 25px;
+        padding: 2%;
+        background-color: red;
+        margin-inline: 2%;
+        width: 10%;
+        height: 10%;
+    }
+
+    #Chat{
+        background-image: url(./Assets/Icones/bater-papo.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .TopRight{
+        margin-right: 3%;
+    }
+
+    #Jogo{
+        width: 80%;
+        border: solid red;
+    }
+
+    #CartasMesa{
+        width: 20%;
+        border: solid red;
+    }
+
+    #Centro{
+        padding: 22.3%;
+        border: solid red;
+        background-image: url(/Assets/Living.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+    }
+
+    body{
+        background-color: gray;
+        overflow: hidden; 
+    }
+    #Titulo{
+        padding-inline: 10%;
+    }
+
+    footer{
+        bottom: 0px;
+    }
+</style>
+</html>
